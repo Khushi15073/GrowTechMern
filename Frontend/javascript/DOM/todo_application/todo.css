@@ -1,0 +1,57 @@
+* {
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+   
+
+    
+}
+body{
+     background-color: blue;
+}
+.container{
+    background-color: white;
+    height: 50vh;
+    width: 40vw;
+   margin: auto ;
+ align-items: center;
+    text-align: center;
+   border: 1px solid black;
+   border-radius: 2dvb;
+  margin-top: 10em;
+  
+
+    
+}
+.container h3{
+    font-size: 3em;
+   font-family: 'Times New Roman', Times, serif;
+}
+.container input{
+    margin-top: 2em;
+    height: 3em;
+    width: 25rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.bbb{
+    background-color: brown;
+    color: aliceblue;
+    height: 3em;
+    width: 5em;
+    border-radius: 10px;
+    margin-top: 2em;
+    
+}
+button{
+    background-color: brown;
+    color: aliceblue;
+    height: 3em;
+    width: 5em;
+    border-radius: 10px;
+    margin-top: 2em;
+    
+}
+#adddiv{
+  
+}

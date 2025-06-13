@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+.wrapper {
+    background-color:aliceblue;
+    width: 100vw;
+    height: 100%;
+}
+
+.page1-img{
+    background-image: url(MSI/MSI/lim-head.jpg);
+    height: 120vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    /* margin-top: 3em; */
+}
+
+
+.logo{
+    margin-left: 0rem;
+    margin-top: 3em;
+}
+.logo img{
+    width: 6rem;
+}
+.nav-content {
+    color: white;
+    margin-top: 3em;
+}
+.nav-content p{
+font-size: 20px;
+text-align: left;
+margin-right: 5em;
+
+}
+.nav-content span{
+    /* justify-content: left; */
+    margin-top: 2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+.intel{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3em;
+}
+.intel-content p{
+margin-top: 1rem;
+text-align: left;
+font-size: small;
+
+}
+.intel img{
+    height: 5em;
+}
+.content2 {
+   
+    width: 100vw;
+    height: 21%;
+    position: relative;
+  
+
+}
+.container{
+    width: 100vw;
+    
+    text-align: center;
+    position: relative;
+    margin: auto;
+  
+    
+} 
+.backround-img{
+    width: 100vw;
+    display: block;
+}
+
+
+
+
+    .centered-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+       
+     
+      }
+ 
+ .content3{
+    width: 100vw;
+    height: 80%;
+ 
+    display: flex;
+
+}
+
+.left-half {
+    width: 60vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    background-color: white;
+  }  
+
+   .right-half {
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    /* height: 10vh; */
+    /* margin-top: 10em; */
+  }
+  .leftimg{
+    width: 60vw;
+  }
+ 
+  
+  .prestige-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    background-color: #fffaf5;
+  }
+  
+  .content-left img {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .content-right {
+   
+    max-width: 600px;
+    color: #5e4b3c;
+    width: 40vw;
+    /* margin-bottom: 0; */
+    
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    flex-direction: column;
+  }
+  
+  .content-right h2 {
+    font-size: 2rem;
+    color: #d39e00;
+  }
+  
+  .divider {
+    width: 100px;
+    border: 1px solid #d39e00;
+    margin: 1rem 0;
+  }
+ 
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+    /* margin-bottom: 0; */
+  }
+  
+  .feature img {
+    width: 85%;
+    height: auto;
+    border-radius: 4px;
+    border-color: #a77e04;
+    border: 2px burlywood;
+    
+  }
+  
+  .feature p {
+    margin-left: 1em;
+    text-align: left;
+    color: black;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 70%;
+  }
+  .left-half1{
+    width: 60vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+  }
+  .right-half2{
+    width: 40vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    background-color: white;
+  }
+  .content5{
+    
+   
+        width: 100vw;
+        height: 20%;
+        position: relative;
+    
+    }
+.rj{
+    position: absolute;
+}
+.con{
+    position: absolute;
+    top: 45%;
+    left: 60%;
+ 
+}
+.content6-container{
+  width: 100vh;
+  height: 40%;
+
+}
+/* .content6-img{
+  width: 100vw;
+  height: 40%;
+  width: fit-content;
+  position: relative;
+}  */
+.year-warranty{
+
+  position: absolute;
+}
+.content6{
+  width: 100vw;
+  height: 50%;
+
+  display: flex;
+
+   
+  /* width: 100vw;
+  height: 20vh; */
+  position: relative;
+
+}
+
+.text6{
+  font-weight: 10;
+  
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: #d39e00; */
+}
+/* .text6 hr{
+  text-align: center;
+  justify-content: center;
+  margin-left: 3em;
+} */
+.text6 p{
+  color: rgb(213, 127, 14);
+  font-size: 17px;
+  
+}
+.text6 span{
+  font-size: 17px;
+  font-weight: 40px;
+  opacity: 65%;
+}
+.test-img img{
+  width: 70%;
+  margin-left: 1em;
+ 
+}
+/* .sec6btn {
+  padding: 10px 30px;
+  color: grey;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 5px;
+} */
+.msi-btn{
+  margin-right: 30%;
+  width: 29%;
+  height: 3em; 
+  background-color: white;
+  cursor: pointer; 
+  color: grey;
+  border-radius: 5px;
+  border: 1px solid grey;
+  
+  padding: 10px 20px;
+}
+.msi-btn :hover{
+  background-color: #007BFF;
+  color:rgb(169, 116, 46);
+  }
+/* .btn{
+  color: black;
+  font-weight: 50;
+  font-size: 15px;
+  margin-top: 45rem;
+  float: left; */
+ /* background-color: #d39e00 */
+ 
+
+.laptop{
+  width: 100vw;
+    height: 20%;
+    margin-bottom: 0;
+    /* position: relative; */
+
+}
+.laptop-img{
+  position: relative;
+}
+.laptop-img img{
+  width: 100vw;
+    
+  text-align: center;
+  /* position: relative; */
+  margin: auto;
+
+}
+.laptop-content{
+position: absolute;
+justify-content: center;
+margin-left: 20em;
+font-size: 30px;
+margin-top: 4em;
+font-weight: 10;
+
+
+}
+.hdmi{
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-around;
+  background-color: white;
+  opacity: 70%;
+}
+.hdmi1{
+  width:15%;
+}
+.hdmi2{
+  width: 30%;
+  font-weight: 2;
+}
+.hdmi3{
+  width: 30%;
+  font-weight: 2;
+
+}
+/* section 7 */
+.section7 {
+  background-image: url("MSI/MSI/PrestigeNB.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: right; */
+  height: 140vh;
+  /* margin-left: 100px; */
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 150px;
+  align-items: end;
+}
+.pcimg {
+  width: 700px;
+}
+.sec7flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.sec7pc1 {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.pc1details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pc1details h1 {
+  color: goldenrod;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.pc1details h3 {
+  color: black;
+  font-size: 18px;
+}
+.sec7point {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: grey;
+}
+.sec7btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: grey;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+/*=================================== footer8 =================================== */
+
+
+
+.footerline {
+  width: 100vw;
+  height: 1.5px;
+  background-color: grey;
+  margin: 0 auto;
+}
+.footer-last {
+  padding: 20px 0 50px 30px;
+  color: grey;
+  background-color: white;
+}
+.footerright{
+  display: flex;
+  justify-content: right ;
+  /* text-align: left; */
+  margin-right: 2em;
+  gap: 0.5em;
+}

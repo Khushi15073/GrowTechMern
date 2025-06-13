@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+.wrapper{
+  background-color: rgb(206, 199, 199);
+  height: 60vh;
+  width: 60vw;
+margin: 0 auto;
+margin-top: 5em;
+  
+}
+.content{
+   text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+margin: 0 auto;
+margin-left: 7em;
+margin-top: 4em;
+
+}
+.design{
+    background-color: black;
+    height: 10em;
+
+    width:10em ;
+          box-shadow: 10px 10px 5px grey;
+}
+.design p{
+    color: grey;
+    text-align: center;
+     font-size: 25px;
+
+  
+}
+.main{
+    height: 15em;
+    box-shadow: black;
+      box-shadow: 10px 10px 5px grey;
+}
+
+.code{
+    background-color: rgb(238, 86, 86);
+    
+height: 50%;
+      box-shadow: 10px 10px 5px grey;
+
+}
+.code p{
+     color: white;
+     text-align: center;
+     font-size: 25px;
+}
+.codebottom{
+height: 50%;
+
+background-color: white;
+}
+.launch{
+    background-color: black;
+    width:10em ;
+    height: 10em;
+      box-shadow: 10px 10px 5px grey;
+
+}
+.launch p{
+    color: grey;
+     text-align: center;
+     font-size: 25px;
+
+
+
+}
+.btn{
+    margin-top: 2em;
+    margin-left: 1em;
+}

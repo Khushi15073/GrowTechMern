@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Armstrong Number</title>
+    <script>
+        // An Armstrong number (also called a narcissistic number) is a number that is equal to the sum of its digits each raised to the power of the number of digits.
+        let num = Number(prompt("enter the number:"));
+let temp = num;
+let count = 0;
+let sum = 0;
+
+let temp1 = num;
+while (temp1 > 0) {
+  count++;
+  temp1 = (temp1 - (temp1 % 10)) / 10;
+}
+
+while (temp > 0) {
+  let digit = temp % 10;
+  
+  let power = 1;
+
+  for (let i = 0; i < count; i++) {
+    power *= digit; 
+  }
+
+  sum += power;
+  temp = (temp - (temp % 10)) / 10;
+}
+
+
+if (sum === num) {
+  console.log(num + " is an Armstrong number");
+} else {
+  console.log(num + " is not an Armstrong number");
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

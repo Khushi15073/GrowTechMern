@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strong number</title>
+    <script>
+
+let num = Number(prompt("enter the number:"));
+let temp = num;
+let sum = 0;
+
+while (temp > 0) {
+  let digit = temp % 10;
+  let fact = 1;
+
+  for (let i = 2; i <= digit; i++) {
+    fact *= i;
+  }
+
+  sum += fact;
+
+ 
+  temp = (temp - (temp % 10)) / 10;
+}
+
+if (sum === num) {
+  console.log(num + " is a Strong number");
+} else {
+  console.log(num + " is not a Strong number");
+}
+
+
+    </script>
+</head>
+<body>
+    <h3>A Strong number is a number for which the sum of the factorials of its digits is equal to the number itself.</h3>
+</body>
+</html>

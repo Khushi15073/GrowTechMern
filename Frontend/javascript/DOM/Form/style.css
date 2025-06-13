@@ -1,0 +1,117 @@
+
+body {
+    background-color: #f378dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main wrapper */
+.box {
+    padding: 20px;
+    display: flex;
+   
+}
+
+/* Heading "Form" */
+h1 {
+    color: black;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+/* Form and Output container */
+.container {
+    background-color: #faf8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #000;
+    width: 400px;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+}
+
+/* Form fields style */
+.f1 label, .f2 label {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    width: 200px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Gender and Skills Checkboxes */
+.c {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.c1 {
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit Button */
+.submit {
+    padding: 10px 20px;
+    background-color:rgb(135, 4, 4);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #000;
+    margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: rgb(243, 151, 81);
+}
+
+/* Output Box */
+#display {
+  
+    width: 400px; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; 
+        box-shadow: 3px 3px 15px #000;
+
+    font-family: Arial, sans-serif;
+    margin-left: 50px; 
+}
+
+#display h1 {
+  
+    margin-bottom: 15px;
+}
+#clearBtn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: maroon;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    font-size: 14px;
+}
+
+#clearBtn:hover {
+    background-color: darkred;
+}
