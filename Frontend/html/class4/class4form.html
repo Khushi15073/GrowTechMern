@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <label for="fname"> Name</label>&nbsp;&nbsp;&nbsp;
+      <input
+        type="text"
+        id="fname"
+        placeholder="Enter your First Name"
+        name="fname"
+        required
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="mname"> Middle Name</label>&nbsp;&nbsp;&nbsp;
+      <input
+        type="text"
+        id="mname"
+        placeholder="Enter your middle Name"
+        name="mname"
+        value="kumar"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="lname">Last Name</label>&nbsp;&nbsp;&nbsp;
+      <input
+        type="text"
+        id="lname"
+        placeholder="Enter your Last Name"
+        name="lname"
+      />
+      <br /><br />
+      <label for="age"> Age</label>&nbsp;&nbsp;&nbsp;
+      <input
+        type="number0"
+        id="age"
+        placeholder="Enter your age"
+        name="age"
+      />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="email"> Email</label>&nbsp;&nbsp;&nbsp;
+      <input type="text"id="email"  placeholder="Enter your Email"name="email"/>&nbsp;&nbsp;&nbsp;&nbsp; <br /><br />
+      <label for="dob"> DOB</label>&nbsp;&nbsp;&nbsp;
+      <input
+        type="date"
+        id="dob"
+        placeholder="Enter your DOB"
+        name="dob"
+        max="2025-04-14"
+        min="1998-04-14"
+      />&nbsp;&nbsp;&nbsp;&nbsp; <br /><br />
+
+      <label for="">Select Passout Year :</label><br />
+      <input type="radio" id="2024" name="year" value="2024" />
+      <label for="2024">2024</label><br />
+
+      <input type="radio" id="2025" name="year" value="2025" checked />
+      <label for="2025">2025</label><br />
+
+      <input type="radio" id="2026" name="year" value="2026" />
+      <label for="2026">2026</label><br />
+      <input type="radio" id="2026" name="year" value="2026" />
+      <label for="2026">2027</label>&nbsp;&nbsp;&nbsp;&nbsp; <br /><br />
+      <label for="stream">Stream Name</label>
+      <input type="checkbox" name="stream1" id="stream1" />
+      <label for="strem1">CSE</label>
+      <input type="checkbox" name="stream2" id="stream2" />
+      <label for="strem2">EC</label>
+      <input type="checkbox" name="stream3" id="stream3" />
+      <label for="strem3">IT</label>
+      <br /><br />
+      <label for="file">Upload resume</label>
+      <input type="file" name="" id="file" required />
+      <label for="dropdown">Choose Technology</label>
+      <select name="dropdown" id="dropdown">
+        <optgroup> val</optgroup>
+        <option value="C/C++" selected>C/C++</option>
+        <option value="JAVA">JAVA</option>
+        <option value="Python">Python</option>
+        <option value="Javascript">Javascript</option></select
+      ><br /><br />
+      <textarea name="text" id="text" rows="15" cols="15" maxlength="150">
+Write about your project</textarea
+      >
+      <br /><br />
+      <label for="number">Mobile number</label>
+      <input
+        type="tel"
+        id="mobile"
+        placeholder="Enter your Mobile no."
+        name="mobile"
+        max="12"
+        min="10"
+      />
+      &nbsp;&nbsp;&nbsp;&nbsp;
+
+      <label for="income">Enter Income</label>
+      <input
+        type="number"
+        step="1000"
+        id="income"
+        name="income"
+        placeholder="Enter Income "
+      />
+      <br /><br />
+      <label for="password">Enter password </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        min="5"
+        placeholder="Enter password"
+      />&nbsp;&nbsp;&nbsp;&nbsp;
+      <input
+        type="text"
+        id="password"
+        name="password"
+        min="5"
+        placeholder="confirm password"
+      />
+      <br /><br />
+      <input
+        type="submit"
+        name="submit"
+        id="submit"
+      />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input
+        type="reset"
+        name="reset"
+        id="reset"
+      />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button id="editbutton" disabled>Edit</button>
+      <br /><br />
+      <label for="sher">city name</label>
+      <input type="text" name="sher" id="sher" value="Indore" readonly />
+      <select name="city" id="city" multiple size="3">
+        <option value="Indore" selected>Indore</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="khandwa">khandwa</option>
+        <option value="bhurhanpur">bhurhanpu</option>
+        <option value="dewas">dewas</option>
+        <option value="ujjain">ujjain</option>
+      </select>
+      <br /><br />
+      <label for="stack">Tech stack</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="checkbox" name="stack" id="stack" />
+      <label for="stack">c/c++</label>
+      <input type="checkbox" name="stack" id="stack" checked />
+      <label for="stack">Python</label>
+      <input type="checkbox" name="stack" id="stack" />
+      <label for="stack">java</label>
+      <input type="checkbox" name="stack" id="stack" />
+      <label for="stack">Javascript</label>
+      <br /><br />
+      <label for="seach">Search</label>
+      <input type="search" name="search" id="seach" />
+    </form>
+  </body>
+</html>

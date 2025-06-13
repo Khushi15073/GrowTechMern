@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Application Form</title>
+  <style>
+    body {
+      background-color: #e6f9ff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .container {
+   
+      background: #ffffff;
+      padding: 30px;
+   
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+   
+   
+   
+  
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .required {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Employee Application</h2>
+  <p>Please complete the form below to apply for a position with us.</p>
+
+  <form>
+    <label>Full Name <span class="required">*</span></label>
+    <div class="half-width">
+      <input type="text" placeholder="First Name" required>
+    </div>
+    <div>
+      <input type="text" placeholder="Last Name" required>
+    </div>
+
+    <label>E-mail <span class="required">*</span></label>
+    <input type="email" placeholder="ex: myname@example.com" required>
+
+    <label>Phone Number <span class="required">*</span></label>
+    <div >
+      <input type="text" placeholder="Area Code" required>
+    </div>
+    <div >
+      <input type="text" placeholder="Phone Number" required>
+    </div>
+
+    <label>Address</label>
+    <input type="text" placeholder="Street Address">
+    <input type="text" placeholder="Street Address Line 2">
+    <div>
+      <input type="text" placeholder="City">
+    </div>
+    <div >
+      <input type="text" placeholder="State / Province">
+    </div>
+    <div >
+      <input type="text" placeholder="Postal / Zip Code">
+    </div>
+    <div >
+      <select required>
+        <option value="">Please Select</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+       
+      </select>
+    </div>
+
+    <label>Applying for Position: <span class="required">*</span></label>
+    <input type="text" required>
+
+    <label>When can you start? <span class="required">*</span></label>
+    <input type="date" required>
+
+    <label>Cover Letter</label>
+    <input type="file">
+
+    <label>Upload Resume <span class="required">*</span></label>
+    <input type="file" required>
+
+    <label>Enter the message as it's shown <span class="required">*</span></label>
+    <textarea placeholder="Captcha Code" required></textarea>
+
+    <div >
+      <button type="submit">Submit</button>
+      <button type="reset">Clear Form</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

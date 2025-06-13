@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div>
+    <form>
+    <div>
+        <label for="roll"> Roll_No</label>
+        <input type="text" id="roll"/>
+    </div>
+    <div>
+        <label for="fnane"> Fname</label>
+        <input type="text" id="fname" placeholder="fname"/>
+    </div>   
+    <div>
+        <label for="lname"> lname</label>
+        <input type="text" id="lname" placeholder="lname" name="lname"/>
+    </div> 
+    <div>
+        <label for="email"> email</label>
+
+        <input type="email" name="email" id="email" placeholder="email"/>
+    </div> 
+   
+    <div>
+        <label for="age"> age</label>
+        <input type="number" name="age" id="age" placeholder="age" name="age" step="5"/>
+    </div> 
+    <div>
+        <label for="DOB"> DOB </label>
+        <input type="date" name="DOB" id="DOB" placeholder="DOB" min="2002-11-06" max="2025-07-13"/>
+    </div> 
+    <div>
+        <label for="password"> password </label>
+        <input type="password" id="password" placeholder="password" name="password"/>
+    </div> 
+    <div>
+        <p> select gender</p>
+        <label for="gender1"> male</label>
+        <input type="radio" id="gender1" name="gender" value="male"/>
+        <label for="gender2"> female</label>
+        <input type="radio" id="gender2" name="gender" value="female"/>
+        <label for="gender3"> other</label>
+        <input type="radio" id="gender3" name="gender" value="other"/>
+    </div> 
+    <div>
+        <p> electronics item you have</p>
+        <label for="item1">mobile</label>
+        <input type="checkbox" name="items" id="item1">
+        <label for="item2">laptop</label>
+        <input type="checkbox" name="items" id="item2">
+        <label for="item3">monitor</label>
+        <input type="checkbox" name="items" id="item3">
+    </div>
+ <div>
+  
+    <label for="electronics">electronics</label>
+    <select name="items" id="items" multiple>
+        <option value="mobile"> mobile </option>
+        <option value="laptop"> laptop </option>
+        <option value="monitor"> monitor </option>
+    </select>
+    <div>
+        <label for="file"> upload a file </label>
+        <input type="file" id="file"  name="file"/>+
+    </div> 
+    <div>
+        <label for="search">  search </label>
+        <input type="search" id="search" name="search"/>
+    </div> 
+ </div>
+ <div>
+   
+    <input type="reset" id="reset" name="reset"/>
+</div> 
+<div>
+   
+    <input type="submit" id="submit" name="submit"/>
+</div> 
+
+    </form>
+</div>
+
+</body>
+</html> 
