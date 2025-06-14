@@ -1,0 +1,17 @@
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  background: rgb(0, 0, 43);
+  padding: 2rem;
+  min-height: 100vh;
+} */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  background: linear-gradient(to bottom, #00002b, #00001a); /* subtle gradient */
+  padding: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
